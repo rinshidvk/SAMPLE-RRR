@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+
+    
+}
+.section-a{
+    background-color: rgb(3, 95, 187);
+    width: 30%;
+    height: 200vh;
+    padding-top: 30px;
+    display: grid;
+    justify-content: center;
+}
+.section-b{
+    background-color: white;
+    width: 70%;
+    height: 100vh;
+}
+i{
+font-size: larger;
+padding-left: 33px;
+}
+.name{
+    display: grid;
+    color: white;
+    margin-top: 10px;
+    font-size: larger;
+    font-family: SF Pro Text,SF Pro Icon,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-left: 17px;
+
+
+}
+.home{
+    position: relative;
+    bottom: 500px;
+    line-height: 50px;
+    color: rgb(220, 217, 217);
+    font-family: SF Pro Text,SF Pro Icon,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: medium;
+    font-weight: 300;  
+}
+.image-1>img{
+    width: 100%;
+    
+    
+}
+.welcome-neaty{
+    margin-top: 30px;
+    padding: 30px;
+}
+p{
+    padding-top: 30px;
+    font-family: SF Pro Text,SF Pro Icon,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: justify;
+    font-size: small;
+}
+h2{
+    font-family: SF Pro Text,SF Pro Icon,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgb(3, 95, 187);
+    font-weight: 400;
+}
+.about-team{
+    display: grid;
+    grid-column: 20% 30%;
+}
+.about-team>img{
+    width: 290px;
+    height: 350px;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+.about-team{
+    display: flex;
+}
+h3{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-family: SF Pro Text,SF Pro Icon,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgb(3, 95, 187);
+}
+.p1{
+    padding: 20px;
+    font-family: SF Pro Text,SF Pro Icon,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: justify;
+    font-size: small;
+
+}
+button{
+    background-color:  rgb(3, 95, 187);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid  rgb(3, 95, 187);
+    margin-left: 28px;
+    
+}
+.image-2{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    gap: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
